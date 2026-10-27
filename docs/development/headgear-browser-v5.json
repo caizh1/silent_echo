@@ -1,0 +1,365 @@
+{
+  "验收日期": "2026-10-26",
+  "环境": "本机内置浏览器，后台，本地开发服务",
+  "穿戴开关": [
+    {
+      "槽位": "helmet",
+      "已卸下": true
+    },
+    {
+      "槽位": "goggles",
+      "已卸下": true
+    },
+    {
+      "槽位": "headset",
+      "已卸下": true
+    },
+    {
+      "槽位": "helmet",
+      "已装上": true
+    },
+    {
+      "槽位": "goggles",
+      "已装上": true
+    },
+    {
+      "槽位": "headset",
+      "已装上": true
+    }
+  ],
+  "动作": [
+    "行走",
+    "换弹"
+  ],
+  "预览": {
+    "outfit": {
+      "legacy": false,
+      "armor": 3,
+      "helmet": true,
+      "goggles": true,
+      "headset": true,
+      "backpack": true,
+      "gloves": true,
+      "boots": true,
+      "kneepads": true,
+      "neckguard": true,
+      "shoulders": true,
+      "belt": true,
+      "thighpouches": true,
+      "elbows": true,
+      "forearms": true,
+      "shinguards": true
+    },
+    "parts": [
+      {
+        "name": "equipment-body-armor-i",
+        "slot": "armor",
+        "tier": 1,
+        "visible": false,
+        "skinned": true
+      },
+      {
+        "name": "equipment-body-armor-ii",
+        "slot": "armor",
+        "tier": 2,
+        "visible": false,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-kneepads-left-0",
+        "slot": "kneepads",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-kneepads-left-1",
+        "slot": "kneepads",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-kneepads-right-0",
+        "slot": "kneepads",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-kneepads-right-1",
+        "slot": "kneepads",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-shinguards-left-0",
+        "slot": "shinguards",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-shinguards-left-1",
+        "slot": "shinguards",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-shinguards-right-0",
+        "slot": "shinguards",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-shinguards-right-1",
+        "slot": "shinguards",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-thighpouches-left-0",
+        "slot": "thighpouches",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-thighpouches-left-1",
+        "slot": "thighpouches",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-thighpouches-right-0",
+        "slot": "thighpouches",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-thighpouches-right-1",
+        "slot": "thighpouches",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-wrist-left",
+        "slot": "forearms",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-fitted-wrist-right",
+        "slot": "forearms",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-goggles-fitted-v5",
+        "slot": "goggles",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-goggles-lens",
+        "slot": "goggles",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-headset-fitted-v5",
+        "slot": "headset",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-helmet-fitted-v5",
+        "slot": "helmet",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-backpack",
+        "slot": "backpack",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-battle-belt",
+        "slot": "belt",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-boot-left",
+        "slot": "boots",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-boot-right",
+        "slot": "boots",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-chest-iii",
+        "slot": "armor",
+        "tier": 3,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-collar",
+        "slot": "neckguard",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-elbow-left",
+        "slot": "elbows",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-elbow-right",
+        "slot": "elbows",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-forearm-left",
+        "slot": "forearms",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-forearm-right",
+        "slot": "forearms",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-knee-left",
+        "slot": "kneepads",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-knee-right",
+        "slot": "kneepads",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-shin-left",
+        "slot": "shinguards",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-shin-right",
+        "slot": "shinguards",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-shoulder-left",
+        "slot": "shoulders",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-shoulder-right",
+        "slot": "shoulders",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-thigh-pouch-left",
+        "slot": "thighpouches",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-thigh-pouch-right",
+        "slot": "thighpouches",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-vest-side-15",
+        "slot": "armor",
+        "tier": 3,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-reference-vest-side-16",
+        "slot": "armor",
+        "tier": 3,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-tactical-glove-left",
+        "slot": "gloves",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      },
+      {
+        "name": "equipment-tactical-glove-right",
+        "slot": "gloves",
+        "tier": 0,
+        "visible": true,
+        "skinned": true
+      }
+    ]
+  },
+  "可见三角面": "151126",
+  "预览帧率": "120",
+  "浏览器错误": [],
+  "短时压力样本": {
+    "分辨率": "1920x1080",
+    "敌人数": 60,
+    "采样秒": 116.67,
+    "平均帧率": 120,
+    "帧间隔百分之九十五毫秒": 9.30000000000291,
+    "绘制次数": 130,
+    "三角面": 1058081,
+    "采样时状态": "playing",
+    "浏览器错误": [],
+    "边界": "开发验收模式，桌面后台短时样本；不代表手机或三十分钟稳定性"
+  }
+}

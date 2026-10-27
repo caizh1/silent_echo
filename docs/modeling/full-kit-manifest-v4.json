@@ -1,0 +1,457 @@
+{
+  "说明": "已完成十五类外观穿戴、八区域覆盖、真实模型正背与实机动作验收；保留近景纹理和手指动画精修边界",
+  "骨骼数": 41,
+  "动作数": 1,
+  "新增与替换网格": 34,
+  "装备网格数": 41,
+  "穿戴类别": [
+    "armor",
+    "backpack",
+    "belt",
+    "boots",
+    "elbows",
+    "forearms",
+    "gloves",
+    "goggles",
+    "headset",
+    "helmet",
+    "kneepads",
+    "neckguard",
+    "shinguards",
+    "shoulders",
+    "thighpouches"
+  ],
+  "模型": [
+    {
+      "名称": "base-body",
+      "槽位": null,
+      "来源": null,
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 17676,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-boots",
+      "槽位": null,
+      "来源": null,
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-gloves",
+      "槽位": null,
+      "来源": null,
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 1377,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-helmet",
+      "槽位": null,
+      "来源": null,
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 1342,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-armor",
+      "槽位": null,
+      "来源": null,
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 1581,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-abdomen",
+      "槽位": null,
+      "来源": null,
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 1824,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-helmet",
+      "槽位": "helmet",
+      "来源": "tactical-helmet",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 4198,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-goggles",
+      "槽位": "goggles",
+      "来源": "tactical-goggles",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-headset",
+      "槽位": "headset",
+      "来源": "tactical-headset",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-body-armor-i",
+      "槽位": "armor",
+      "来源": "body-armor-i",
+      "原始部件": null,
+      "护甲档位": 1,
+      "三角面": 6500,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-body-armor-ii",
+      "槽位": "armor",
+      "来源": "body-armor-ii",
+      "原始部件": null,
+      "护甲档位": 2,
+      "三角面": 6500,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-glove-left",
+      "槽位": "gloves",
+      "来源": "tactical-glove",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 3600,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-glove-right",
+      "槽位": "gloves",
+      "来源": "tactical-glove",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 3600,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-chest-iii",
+      "槽位": "armor",
+      "来源": "reference-chest-iii",
+      "原始部件": 1,
+      "护甲档位": 3,
+      "三角面": 11500,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-vest-side-15",
+      "槽位": "armor",
+      "来源": "reference-vest-side-15",
+      "原始部件": 15,
+      "护甲档位": 3,
+      "三角面": 1000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-vest-side-16",
+      "槽位": "armor",
+      "来源": "reference-vest-side-16",
+      "原始部件": 16,
+      "护甲档位": 3,
+      "三角面": 1000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-backpack",
+      "槽位": "backpack",
+      "来源": "reference-backpack",
+      "原始部件": 4,
+      "护甲档位": null,
+      "三角面": 6000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-battle-belt",
+      "槽位": "belt",
+      "来源": "reference-battle-belt",
+      "原始部件": 6,
+      "护甲档位": null,
+      "三角面": 6000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-collar",
+      "槽位": "neckguard",
+      "来源": "reference-collar",
+      "原始部件": 7,
+      "护甲档位": null,
+      "三角面": 1400,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-shoulder-left",
+      "槽位": "shoulders",
+      "来源": "reference-shoulder-left",
+      "原始部件": 13,
+      "护甲档位": null,
+      "三角面": 2400,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-elbow-left",
+      "槽位": "elbows",
+      "来源": "reference-elbow-left",
+      "原始部件": 13,
+      "护甲档位": null,
+      "三角面": 1999,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-forearm-left",
+      "槽位": "forearms",
+      "来源": "reference-forearm-left",
+      "原始部件": 13,
+      "护甲档位": null,
+      "三角面": 1417,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-wrist-left",
+      "槽位": "forearms",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 512,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-shoulder-right",
+      "槽位": "shoulders",
+      "来源": "reference-shoulder-right",
+      "原始部件": 3,
+      "护甲档位": null,
+      "三角面": 2400,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-elbow-right",
+      "槽位": "elbows",
+      "来源": "reference-elbow-right",
+      "原始部件": 3,
+      "护甲档位": null,
+      "三角面": 1999,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-forearm-right",
+      "槽位": "forearms",
+      "来源": "reference-forearm-right",
+      "原始部件": 3,
+      "护甲档位": null,
+      "三角面": 1357,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-wrist-right",
+      "槽位": "forearms",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 512,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-thigh-pouch-left",
+      "槽位": "thighpouches",
+      "来源": "reference-thigh-pouch-left",
+      "原始部件": 2,
+      "护甲档位": null,
+      "三角面": 803,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-knee-left",
+      "槽位": "kneepads",
+      "来源": "reference-knee-left",
+      "原始部件": 0,
+      "护甲档位": null,
+      "三角面": 3000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-shin-left",
+      "槽位": "shinguards",
+      "来源": "reference-shin-left",
+      "原始部件": 0,
+      "护甲档位": null,
+      "三角面": 1047,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-thighpouches-left-0",
+      "槽位": "thighpouches",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-thighpouches-left-1",
+      "槽位": "thighpouches",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-kneepads-left-0",
+      "槽位": "kneepads",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2032,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-kneepads-left-1",
+      "槽位": "kneepads",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2040,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-shinguards-left-0",
+      "槽位": "shinguards",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2144,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-shinguards-left-1",
+      "槽位": "shinguards",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2032,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-boot-left",
+      "槽位": "boots",
+      "来源": "reference-boot-left",
+      "原始部件": 8,
+      "护甲档位": null,
+      "三角面": 3500,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-thigh-pouch-right",
+      "槽位": "thighpouches",
+      "来源": "reference-thigh-pouch-right",
+      "原始部件": 2,
+      "护甲档位": null,
+      "三角面": 869,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-knee-right",
+      "槽位": "kneepads",
+      "来源": "reference-knee-right",
+      "原始部件": 12,
+      "护甲档位": null,
+      "三角面": 2538,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-shin-right",
+      "槽位": "shinguards",
+      "来源": "reference-shin-right",
+      "原始部件": 12,
+      "护甲档位": null,
+      "三角面": 1483,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-thighpouches-right-0",
+      "槽位": "thighpouches",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 1968,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-thighpouches-right-1",
+      "槽位": "thighpouches",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 1968,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-kneepads-right-0",
+      "槽位": "kneepads",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2032,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-kneepads-right-1",
+      "槽位": "kneepads",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2000,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-shinguards-right-0",
+      "槽位": "shinguards",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2032,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-fitted-shinguards-right-1",
+      "槽位": "shinguards",
+      "来源": "fitted-strap",
+      "原始部件": null,
+      "护甲档位": null,
+      "三角面": 2080,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-reference-boot-right",
+      "槽位": "boots",
+      "来源": "reference-boot-right",
+      "原始部件": 9,
+      "护甲档位": null,
+      "三角面": 3500,
+      "无权重顶点": 0
+    }
+  ],
+  "总三角面": 141362,
+  "字节数": 16978700,
+  "校验值": "9378a5bfee1b395830950d972d458140e1526a1c1a64412a86d7990652a83a3b",
+  "新增积分": 0,
+  "原始模型保留": true,
+  "验收记录": "docs/development/full-kit-v4-validation.md",
+  "自动检查通过数": 62,
+  "独立文件通过数": 19
+}

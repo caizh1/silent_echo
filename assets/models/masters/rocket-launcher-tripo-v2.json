@@ -1,0 +1,42 @@
+{
+  "资产": "火箭炮",
+  "原始文件": "assets/models/tripo/raw/rocket-launcher-textured-v2.glb",
+  "文件摘要": "01565fd39eab4daf126a005739e389a0c82e7b41b6e5e569abf063556e01aaac",
+  "三角面": 114680,
+  "网格数": 1,
+  "非有限顶点": 0,
+  "贴图": [
+    {
+      "名称": "rocket-launcher-tripo-v2_basecolor.jpg",
+      "尺寸": [
+        4096,
+        4096
+      ],
+      "像素有效": true
+    },
+    {
+      "名称": "rocket-launcher-tripo-v2_normal.png",
+      "尺寸": [
+        4096,
+        4096
+      ],
+      "像素有效": true
+    },
+    {
+      "名称": "rocket-launcher-tripo-v2_rm.jpg",
+      "尺寸": [
+        4096,
+        4096
+      ],
+      "像素有效": true
+    }
+  ],
+  "材质数": 1,
+  "游戏拟定尺寸米": [
+    1.0976438522338867,
+    1.0999999046325684,
+    0.29698455333709717
+  ],
+  "母版": "assets/models/masters/rocket-launcher-tripo-v2.blend",
+  "说明": "保持完整生成网格与原始贴图；仅完成本地结构检查和双面渲染，游戏挂点与运行验收另行记录。"
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>头部装备修正对照</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10191d;color:#dce1da;font-family:system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:24px}h1{font-size:24px;margin:0 0 8px}p{color:#a9b4ae;font-size:14px}nav{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:18px 0}button,label{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:9px 14px;border:1px solid #53615c;border-radius:3px;background:#202e32;color:inherit;font:inherit;cursor:pointer}input{accent-color:#929e6b}section{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}article{min-width:0;background:#182328;border:1px solid #38464a}h2{font-size:16px;padding:12px 16px;margin:0;border-bottom:1px solid #38464a}.view{height:480px;min-width:0}canvas{width:100%;height:100%;display:block}footer{color:#b8c5b5;font-size:14px;margin-top:16px}@media(max-width:640px){main{padding:14px}section{grid-template-columns:1fr}.view{height:380px}}
+</style>
+<main><h1>头部装备修正对照</h1><p>脸型、肤色与面部贴图保持一致。两侧使用实际游戏模型、相同机位和相同灯光。</p>
+<nav><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><label><input type="checkbox" data-slot="helmet" checked>头盔</label><label><input type="checkbox" data-slot="goggles" checked>目镜</label><label><input type="checkbox" data-slot="headset" checked>耳机</label></nav>
+<section><article><h2>修正前 · 第四版</h2><div class="view" id="before"></div></article><article><h2>修正后 · 第五版</h2><div class="view" id="after"></div></article></section>
+<footer id="status">正在载入实际三维模型……</footer></main>
+<script type="module">
+import * as T from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {clone} from 'three/addons/utils/SkeletonUtils.js';
+import {presetOutfit} from '/src/outfit.ts';
+import {assembleModularActor} from '/src/modular-actor.ts';
+import {weaponIds} from '/src/weapons.ts';
+const models=[],views=[];let angle=0;const outfit=presetOutfit('heavy');
+try{
+const loader=new GLTFLoader();const [legacy,...guns]=await Promise.all([loader.loadAsync('/models/soldier-walk-v1.glb'),...weaponIds.map(id=>loader.loadAsync('/models/weapons/'+id+'-v1.glb'))]);
+function library(){return Object.fromEntries(weaponIds.map((id,index)=>[id,{...guns[index],scene:clone(guns[index].scene)}]));}
+for(const [id,version] of [['before',4],['after',5]]){
+ const container=document.getElementById(id),renderer=new T.WebGLRenderer({antialias:true,powerPreference:'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.1;container.append(renderer.domElement);
+ const scene=new T.Scene();scene.background=new T.Color('#182328');scene.add(new T.HemisphereLight(0xe4eee8,0x4e5146,2.4));const key=new T.DirectionalLight(0xffefdc,3);key.position.set(2,4,4);scene.add(key);const rim=new T.DirectionalLight(0x9ebed0,2);rim.position.set(-3,2,-3);scene.add(rim);
+ const model=await loader.loadAsync('/models/game/modular-soldier-v'+version+'.glb');
+ const actor=assembleModularActor({...legacy,scene:clone(legacy.scene)},model,library(),library());actor.setOutfit(outfit);actor.showRestPose();actor.setWeaponVisible(false);scene.add(actor.root);models.push(actor);
+ const camera=new T.OrthographicCamera(-.22,.22,.215,-.215,.01,10);views.push({renderer,scene,camera,container});
+ container.dataset.version=String(version);container.dataset.ready='true';
+}
+document.getElementById('status').textContent='载入完成：连续硬壳、连体密封镜框、独立烟灰镜片、耳罩和下颌带。可切换正侧背面并独立拆装。';document.body.dataset.ready='true';
+function render(){for(const {renderer,scene,camera,container} of views){const w=container.clientWidth,h=container.clientHeight;renderer.setSize(w,h,false);camera.left=-.215*w/h;camera.right=.215*w/h;camera.updateProjectionMatrix();camera.position.set(Math.sin(angle)*2,1.70,Math.cos(angle)*2);camera.lookAt(0,1.70,0);renderer.render(scene,camera);}requestAnimationFrame(render);}render();
+for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>{angle=({front:0,side:Math.PI/2,back:Math.PI})[button.dataset.view];});
+for(const input of document.querySelectorAll('[data-slot]'))input.addEventListener('change',()=>{outfit[input.dataset.slot]=input.checked;for(const model of models)model.setOutfit(outfit);});
+}catch(error){document.body.dataset.error=String(error);document.getElementById('status').textContent='模型载入失败：'+String(error);console.error(error);}
+</script></html>

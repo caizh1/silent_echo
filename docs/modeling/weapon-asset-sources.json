@@ -1,0 +1,117 @@
+{
+  "核对日期": "2026-10-26",
+  "用途": "《破城前线》的游戏外观模型，不用于实物制造。",
+  "采用来源": [
+    {
+      "作者": "Quaternius",
+      "来源页": "https://quaternius.com/packs/scifimodularguns.html",
+      "作者声明": "免费用于个人与商业项目，授权为 CC0。"
+    },
+    {
+      "作者": "Kenney",
+      "来源页": "https://kenney.nl/assets/blaster-kit",
+      "作者声明": "免费模型包，授权为 CC0。"
+    }
+  ],
+  "许可链接": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "选择调整": "原推荐的商店配件下载需要登录，没有可用登录会话，因此采用作者公开、无需登录的 CC0 备选；未提取受限预览模型。",
+  "实际文件": [
+    {
+      "资产": "手枪主体",
+      "文件": "assets/models/external/raw/quaternius/pistol.gltf",
+      "作者": "Quaternius",
+      "下载来源": "https://drive.usercontent.google.com/download?id=1pknLfctBF_wgczDFKieFrJtfUVz8jkh5&export=download",
+      "字节数": 75603,
+      "文件摘要": "37c0858f52e7637e7c0df405f6fab7ec2e9d42fb9fd181a464381ca23eb3d6c1",
+      "授权": "CC0"
+    },
+    {
+      "资产": "冲锋枪主体及原装弹匣",
+      "文件": "assets/models/external/raw/quaternius/smg.gltf",
+      "作者": "Quaternius",
+      "下载来源": "https://drive.usercontent.google.com/download?id=1pn5Rju_kYZsJxGdJmndA53eY5bOUs6GR&export=download",
+      "字节数": 113544,
+      "文件摘要": "be12fe781fcddef679611acc50bee5ea39f9de757bbf26ac01829cbe9ab9c519",
+      "授权": "CC0"
+    },
+    {
+      "资产": "枪托",
+      "文件": "assets/models/external/raw/quaternius/stock.gltf",
+      "作者": "Quaternius",
+      "下载来源": "https://drive.usercontent.google.com/download?id=17cyXhDjPZ2pW1a9p-SREfaepJXHQrJGc&export=download",
+      "字节数": 53904,
+      "文件摘要": "e2d9d4ac7da3c9a079d6cb60d30fb22d946aa63b212df118bc803af5df3480ef",
+      "授权": "CC0"
+    },
+    {
+      "资产": "握把原件，接入时裁去护圈",
+      "文件": "assets/models/external/raw/quaternius/foregrip.gltf",
+      "作者": "Quaternius",
+      "下载来源": "https://drive.usercontent.google.com/download?id=1CbL6oVsZf5_Nur4xnHt5-puFuU-EIP_6&export=download",
+      "字节数": 40488,
+      "文件摘要": "81e4c666a5891762012d0e76f24abfe09b0ec6fb4c508f9fbf1b67630fc33564",
+      "授权": "CC0"
+    },
+    {
+      "资产": "用于手枪弹匣适配的直弹匣原件",
+      "文件": "assets/models/external/raw/quaternius/magazine-smg.gltf",
+      "作者": "Quaternius",
+      "下载来源": "https://drive.usercontent.google.com/download?id=1iF4ywd6YgAnd-8TLtCAPTextynA4NH5A&export=download",
+      "字节数": 12383,
+      "文件摘要": "ddcf4285e43106f88749377973223ad46c41c4107edabeb7ba580b66ef44797a",
+      "授权": "CC0"
+    },
+    {
+      "资产": "手雷",
+      "文件": "assets/models/external/raw/kenney/grenade-a.glb",
+      "作者": "Kenney",
+      "下载来源": "https://kenney.nl/media/pages/assets/blaster-kit/261d80a716-1753959510/kenney_blaster-kit_2.1.zip",
+      "字节数": 19280,
+      "文件摘要": "8b67f9500005efee816f3fe72eb00bcded0282f7a9916f4436bf923877d8a89f",
+      "授权": "CC0"
+    },
+    {
+      "资产": "瞄具",
+      "文件": "assets/models/external/raw/kenney/scope-small.glb",
+      "作者": "Kenney",
+      "下载来源": "https://kenney.nl/media/pages/assets/blaster-kit/261d80a716-1753959510/kenney_blaster-kit_2.1.zip",
+      "字节数": 19480,
+      "文件摘要": "e7fed68bd5477b214e5af2c29aca55481bffa9b0fd9db5be4cfb1c2bf3a52a65",
+      "授权": "CC0"
+    },
+    {
+      "资产": "完整原始模型包，包含作者原始许可文件",
+      "文件": "assets/models/external/raw/kenney-blaster-kit-v2.1.zip",
+      "作者": "Kenney",
+      "下载来源": "https://kenney.nl/media/pages/assets/blaster-kit/261d80a716-1753959510/kenney_blaster-kit_2.1.zip",
+      "字节数": 1724676,
+      "文件摘要": "91e3093e95427d59625e7e2ce2d0399b861600160fd0b4ada7714796b67cea8c",
+      "授权": "CC0"
+    }
+  ],
+  "已有资产": "突击步枪主体沿用本项目已有的 Tripo 模型；其母版、原始文件和历史费用账本保持原样。",
+  "加工说明": "调整材质配色、比例和挂点，裁切原装枪托与握把，扩容件向下延长；瞄具、枪托与弹匣按槽位显示或互斥替换。",
+  "本轮费用": "本脚本仅下载免费素材；原图建模的实际 Tripo 费用单独记在 assets/models/tripo/tasks.json。",
+  "本次脚本耗时秒": 0.019,
+  "当前原图模型": [
+    {
+      "资产": "手枪",
+      "来源": "本项目原图通过 Tripo 生成",
+      "原始文件": "assets/models/tripo/raw/pistol-textured-v2.glb",
+      "文件摘要": "cbe116ce2492960558d8f53e535323d2ffa6d1e6d6e635eadb285ebd765d567f"
+    },
+    {
+      "资产": "冲锋枪",
+      "来源": "本项目原图通过 Tripo 生成",
+      "原始文件": "assets/models/tripo/raw/smg-textured-v2.glb",
+      "文件摘要": "9f850e322462d1c44b7f7982660c587ca55d316b617b6445722ee8bb911fa24c"
+    },
+    {
+      "资产": "火箭炮",
+      "来源": "本项目原图通过 Tripo 生成",
+      "原始文件": "assets/models/tripo/raw/rocket-launcher-textured-v2.glb",
+      "文件摘要": "01565fd39eab4daf126a005739e389a0c82e7b41b6e5e569abf063556e01aaac"
+    }
+  ],
+  "历史记录说明": "上方免费手枪、冲锋枪原件是历史来源记录；游戏主体已改用原图 Tripo 模型，不再作为当前主体。"
+}

@@ -1,0 +1,97 @@
+{
+  "说明": "保留第四版人体与脸部，围绕同一头型重建头部三类装备",
+  "人体完全一致": true,
+  "非头部装备完全一致": true,
+  "基础网格校验": {
+    "base-body": "eb2d170fd2c4d587bede3c3e526808bbb4c37a29e0212a06d994285cee76aa41",
+    "base-boots": "7ccd8cd94bc922ff0123491c7dd3e78ad0c50b30faf657b004dcb4961107f63e",
+    "base-gloves": "e3790e2c87946c48baff978868fba546982ba8ab5fe170e3086ef0e73c71f57e",
+    "base-helmet": "61438ce04412590f3da1099f4b8045b64e1d2a77cb3e697b052df0092f011a19",
+    "base-armor": "9b0201d12dd18753ee36cb2214593129151d2110005d60f63da0d125cc47dd07",
+    "base-abdomen": "28f643c43cde04829059c9eeb637bb01ec1a9b338c6ca77ff3c0912eba71c485"
+  },
+  "非头部网格校验": {
+    "equipment-body-armor-i": "12ac089468f25570f0e5cb4d956959770aeddc1f218a616a569dc9cc4b9b2d32",
+    "equipment-body-armor-ii": "ef2f623878357d018c0760310fedfb337cb6a890469fc4b5843e6838654101aa",
+    "equipment-tactical-glove-left": "314e85fc978e9892a0cf36913684fe69f147a06585bd1f71b6b1cf755b3cd520",
+    "equipment-tactical-glove-right": "e7c2998bcb4cffb7f68604fd1e0430813ab0de16247d9fe9f79a1e903abc716a",
+    "equipment-reference-chest-iii": "1db2eb4feeb4189fea19c926145c2147867d891d4383fb6741bde3e1dd54eb68",
+    "equipment-reference-vest-side-15": "3a99f08e50184f8c534a2917cdc80be99c9476800cd104b57ff0681b6a09c807",
+    "equipment-reference-vest-side-16": "2ba439f2292b6cafcbcc1f766dc068026ecb7bc7056cca4a9d7b6c14d35a9f3c",
+    "equipment-reference-backpack": "0fd69e6af40beaf90776e6149195afbf553459810c6ef2951f503b6062eb0ed1",
+    "equipment-reference-battle-belt": "c37a876a829fd893cff65aa8a873adf3e67bbd490280f4342dfad9078916022f",
+    "equipment-reference-collar": "53a7b4edd009771e71ae048f78ee285e785ccaa180a2373a77d9b1c52ec05316",
+    "equipment-reference-shoulder-left": "3240058a7b5c9af280eea2a3d8d3b7df0b6fd6c4556b40430f2204fd11c02f94",
+    "equipment-reference-elbow-left": "adfb800e28c857066f67ada9bceb26d3111b307de4d4f99e1923c3bb6f5af0d6",
+    "equipment-reference-forearm-left": "376d21df3211088312c44862ffb6a165bf437e19d32b91c39e996d2707a59d6e",
+    "equipment-fitted-wrist-left": "90a085bec5134641962c211b7a8e7a73fbe2ee61441d70feb07e663498b224d3",
+    "equipment-reference-shoulder-right": "2f99b4bb6cfa63e441ae049a478e9e32b9688c146b73365f8b27ea6a77a5f66a",
+    "equipment-reference-elbow-right": "24ef8882bd91ba40c643026962113bed37c5d1c1a9ff859d04bd480fdcc903fe",
+    "equipment-reference-forearm-right": "9597f0fd4cf5101d5e5a5911c6446174ae9fa5cb664833f6022153fd846cb002",
+    "equipment-fitted-wrist-right": "c5057745e6d2d36e056babd1d6c8b60fe8e270dadf18d6c77f2234d39e0c9a4f",
+    "equipment-reference-thigh-pouch-left": "a6d18e79e73cb04a34395ab2de84c992fbf5c41a17e1cd40725cdbfbc8c6dfde",
+    "equipment-reference-knee-left": "34b00f10275e4f7fea3a03bc6a7806cfcdc0acada8966beb32c24768b8b7542a",
+    "equipment-reference-shin-left": "0c27175de919a1e9ac7e65077fd4ffc4952d76af0e03a811bd788c5d40da3548",
+    "equipment-fitted-thighpouches-left-0": "c75c3a6a74417d4357729b46f0036b45da541dba520122373ac0816603fb62e0",
+    "equipment-fitted-thighpouches-left-1": "57c283ddedda4664117c7ac583407ba2d637483e9d6d776353f89c066f44e418",
+    "equipment-fitted-kneepads-left-0": "3c7af4ba192c273f2d4a37c609c165cace8ad93743f7f1d19b622c051883fca9",
+    "equipment-fitted-kneepads-left-1": "0dbe4574f8ac2503720acfbe10ce7686ee19118f510e73cdab63435e59eccddb",
+    "equipment-fitted-shinguards-left-0": "a351b0608fa0b259de9eae51865f302be067588cb054c72ae7b20772cd6f56c9",
+    "equipment-fitted-shinguards-left-1": "b0e703c6f72452ec3d215e80aefa9d7b1da447b02f0eb361e98134ca03b2e0dd",
+    "equipment-reference-boot-left": "c01cf79f8c650349f88825fd9b676ebe14048c63cf288c6d3f0a38859da06dae",
+    "equipment-reference-thigh-pouch-right": "7051ecd51a707621fcf25943355c43c5b8fbff433720a8194715d617313d71f2",
+    "equipment-reference-knee-right": "65f65dfb7797af73415d13e3c8884181f2031d38aca30472c88e092045f6b9a2",
+    "equipment-reference-shin-right": "d1409460438064c4b7b5035cea2f29c04013ea7354f94a54473959ec4f4af043",
+    "equipment-fitted-thighpouches-right-0": "b865625a6f5107e1f8a2861cf4cbe5a6e4758dcd9d05bd3999a5ed2d0b22d0e1",
+    "equipment-fitted-thighpouches-right-1": "82a922bf255004b2613c9a4f3acf8c1ef19456e0324362f7e9226d4413536fa7",
+    "equipment-fitted-kneepads-right-0": "3fa5ea22e915ed8fbe267e8a5231c5699fdfb3a61d4f7fb30f78d1a7dc80feb2",
+    "equipment-fitted-kneepads-right-1": "a4829c6d8e527a253174d92f9b6d7fe21a238ebb10207cb2fb780853bbee9fab",
+    "equipment-fitted-shinguards-right-0": "8e41aa439ccb341008ba0e1143e2aacd7a892e392abb367ad8c03aaaacff31fb",
+    "equipment-fitted-shinguards-right-1": "e53955bde37e6cd3053b47172dfa991cf38e2120cd5c415334818836f978942d",
+    "equipment-reference-boot-right": "f24e18b77ed92ed2dbcbe804e10171c21805a8a93c6730e9e2e278464b46b560"
+  },
+  "头部装备": [
+    {
+      "名称": "equipment-helmet-fitted-v5",
+      "槽位": "helmet",
+      "材质": "第五版头部烘焙材质",
+      "三角面": 29076,
+      "顶点": 14819
+    },
+    {
+      "名称": "equipment-goggles-fitted-v5",
+      "槽位": "goggles",
+      "材质": "第五版头部烘焙材质",
+      "三角面": 3868,
+      "顶点": 1948
+    },
+    {
+      "名称": "equipment-headset-fitted-v5",
+      "槽位": "headset",
+      "材质": "第五版头部烘焙材质",
+      "三角面": 5400,
+      "顶点": 2754
+    },
+    {
+      "名称": "equipment-goggles-lens",
+      "槽位": "goggles",
+      "材质": "烟灰透明聚碳酸酯镜片",
+      "三角面": 880,
+      "顶点": 481
+    }
+  ],
+  "骨骼数": 41,
+  "动作数": 1,
+  "字节数": 19427884,
+  "校验值": "b3c8b20c042100f8c05644d87413c1685f72ece010885b1d3294f1184a0ee8ca",
+  "新增建模积分": 0,
+  "内嵌头部贴图": [
+    "二维漆面颜色图",
+    "二维粗糙度图",
+    "切线空间微表面法线图"
+  ],
+  "头部绘制网格数": 4,
+  "总三角面": 167988,
+  "运行网格数": 48,
+  "全部贴图内嵌": true
+}

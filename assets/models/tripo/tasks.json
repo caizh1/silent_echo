@@ -1,0 +1,749 @@
+{
+  "预算上限": 2000,
+  "已用积分": 1355,
+  "预算内余量": 645,
+  "网站最新显示余额": 825,
+  "费用记录": [
+    {
+      "项目": "士兵分部件几何",
+      "积分": 60
+    },
+    {
+      "项目": "步枪分部件几何",
+      "积分": 60
+    },
+    {
+      "项目": "士兵二千像素贴图",
+      "积分": 10
+    },
+    {
+      "项目": "步枪二千像素贴图",
+      "积分": 10
+    },
+    {
+      "项目": "士兵人形骨骼绑定",
+      "积分": 20
+    },
+    {
+      "项目": "商店废墟几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "道路掩体几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "轿车残骸几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "装甲车残骸几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "人类步枪兵几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "人类突击兵几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "外星扑击兽几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "外星喷射者几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "外星首领几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "警车残骸几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "战术目镜四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "战术背包四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "战术靴四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "防弹衣一级四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "防弹衣二级四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "防弹衣三级四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "模块化战术头盔四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "通信耳机四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "战术手套四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "战术护膝四视图几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "素装基础士兵第二版几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "素装基础士兵第二版人形骨骼绑定（缺陷版本留档）",
+      "积分": 20
+    },
+    {
+      "项目": "素装基础士兵第三版几何与二千像素物理材质",
+      "积分": 45
+    },
+    {
+      "项目": "素装基础士兵第三版人形骨骼绑定与行走",
+      "积分": 20
+    },
+    {
+      "项目": "原图手枪高精度几何与四千像素物理材质",
+      "积分": 55
+    },
+    {
+      "项目": "原图冲锋枪高精度几何与四千像素物理材质",
+      "积分": 55
+    },
+    {
+      "项目": "原图火箭炮高精度几何与四千像素物理材质",
+      "积分": 55
+    }
+  ],
+  "任务": [
+    {
+      "资产": "士兵",
+      "任务标识": "4775e5d8-ce70-42ac-83e4-894d48652cc4",
+      "链接": "https://studio.tripo3d.com/workspace/rigging/4775e5d8-ce70-42ac-83e4-894d48652cc4",
+      "状态": "几何、贴图、骨骼及行走动作已经完成并下载；通过本地结构导入和单帧渲染检查",
+      "三角面": 95928,
+      "部件数": 17,
+      "骨骼数": 41,
+      "行走动画轨道数": 123
+    },
+    {
+      "资产": "自动步枪基础版",
+      "任务标识": "5b8cfe0a-9053-4b0f-b601-9f566383b7fc",
+      "链接": "https://studio.tripo3d.com/workspace/texture/5b8cfe0a-9053-4b0f-b601-9f566383b7fc",
+      "状态": "分部件几何与贴图已完成并下载",
+      "三角面": 57450,
+      "部件数": 43
+    },
+    {
+      "资产": "商店废墟",
+      "任务标识": "2582e540-28a9-493d-9e6a-3f1c025d1aae",
+      "链接": "https://studio.tripo3d.com/workspace/generate/2582e540-28a9-493d-9e6a-3f1c025d1aae",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 36202,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/ruined-storefront-v1.glb",
+      "可编辑母版": "assets/models/masters/ruined-storefront-v1.blend",
+      "正面预览": "assets/models/masters/ruined-storefront-v1-front.png",
+      "背面预览": "assets/models/masters/ruined-storefront-v1-back.png",
+      "游戏运行副本": "public/models/game/ruined-storefront-v1.glb",
+      "游戏三角面": 14000,
+      "游戏贴图尺寸": 1024
+    },
+    {
+      "资产": "道路掩体",
+      "任务标识": "a41540dd-8746-42e0-a994-d003f4faf7c3",
+      "链接": "https://studio.tripo3d.com/workspace/generate/a41540dd-8746-42e0-a994-d003f4faf7c3",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 37083,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/road-barricade-v1.glb",
+      "可编辑母版": "assets/models/masters/road-barricade-v1.blend",
+      "正面预览": "assets/models/masters/road-barricade-v1-front.png",
+      "背面预览": "assets/models/masters/road-barricade-v1-back.png",
+      "游戏运行副本": "public/models/game/road-barricade-v1.glb",
+      "游戏三角面": 6998,
+      "游戏贴图尺寸": 1024
+    },
+    {
+      "资产": "轿车残骸",
+      "任务标识": "067a2d7f-704e-44a4-ad16-e3afe5a3cd8a",
+      "链接": "https://studio.tripo3d.com/workspace/generate/067a2d7f-704e-44a4-ad16-e3afe5a3cd8a",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 38102,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/burned-sedan-v1.glb",
+      "可编辑母版": "assets/models/masters/burned-sedan-v1.blend",
+      "正面预览": "assets/models/masters/burned-sedan-v1-front.png",
+      "背面预览": "assets/models/masters/burned-sedan-v1-back.png",
+      "游戏运行副本": "public/models/game/burned-sedan-v1.glb",
+      "游戏三角面": 14000,
+      "游戏贴图尺寸": 1024
+    },
+    {
+      "资产": "装甲车残骸",
+      "任务标识": "64a5496d-4ad8-4417-8cc4-2a9ede2a9ed3",
+      "链接": "https://studio.tripo3d.com/workspace/generate/64a5496d-4ad8-4417-8cc4-2a9ede2a9ed3",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 37802,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/burned-armored-van-v1.glb",
+      "可编辑母版": "assets/models/masters/burned-armored-van-v1.blend",
+      "正面预览": "assets/models/masters/burned-armored-van-v1-front.png",
+      "背面预览": "assets/models/masters/burned-armored-van-v1-back.png",
+      "游戏运行副本": "public/models/game/burned-armored-van-v1.glb",
+      "游戏三角面": 13999,
+      "游戏贴图尺寸": 1024
+    },
+    {
+      "资产": "人类步枪兵",
+      "任务标识": "e02afbaf-0ca5-4037-b3ef-75411b9c50ee",
+      "链接": "https://studio.tripo3d.com/workspace/generate/e02afbaf-0ca5-4037-b3ef-75411b9c50ee",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 38130,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/enemy-rifleman-v1.glb",
+      "可编辑母版": "assets/models/masters/enemy-rifleman-v1.blend",
+      "正面预览": "assets/models/masters/enemy-rifleman-v1-front.png",
+      "背面预览": "assets/models/masters/enemy-rifleman-v1-back.png",
+      "游戏运行副本": "public/models/game/enemy-rifleman-v1.glb",
+      "游戏三角面": 9000,
+      "游戏贴图尺寸": 1024,
+      "动画边界": "已接入程序步态与攻击表现，最终骨骼和手部动画未验收"
+    },
+    {
+      "资产": "人类突击兵",
+      "任务标识": "88aed563-4498-46b9-bba5-9be25986f11c",
+      "链接": "https://studio.tripo3d.com/workspace/generate/88aed563-4498-46b9-bba5-9be25986f11c",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 38962,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/enemy-flanker-v1.glb",
+      "可编辑母版": "assets/models/masters/enemy-flanker-v1.blend",
+      "正面预览": "assets/models/masters/enemy-flanker-v1-front.png",
+      "背面预览": "assets/models/masters/enemy-flanker-v1-back.png",
+      "游戏运行副本": "public/models/game/enemy-flanker-v1.glb",
+      "游戏三角面": 9000,
+      "游戏贴图尺寸": 1024,
+      "动画边界": "已接入程序步态与攻击表现，最终骨骼和手部动画未验收"
+    },
+    {
+      "资产": "外星扑击兽",
+      "任务标识": "def374cb-501f-4300-87e6-d6294db0959e",
+      "链接": "https://studio.tripo3d.com/workspace/generate/def374cb-501f-4300-87e6-d6294db0959e",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 38106,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/alien-pouncer-v1.glb",
+      "可编辑母版": "assets/models/masters/alien-pouncer-v1.blend",
+      "正面预览": "assets/models/masters/alien-pouncer-v1-front.png",
+      "背面预览": "assets/models/masters/alien-pouncer-v1-back.png",
+      "游戏运行副本": "public/models/game/alien-pouncer-v1.glb",
+      "游戏三角面": 11000,
+      "游戏贴图尺寸": 1024,
+      "动画边界": "已接入程序步态与攻击表现，最终骨骼和手部动画未验收"
+    },
+    {
+      "资产": "外星喷射者",
+      "任务标识": "8e138bff-e8e9-417a-abca-94992501236c",
+      "链接": "https://studio.tripo3d.com/workspace/generate/8e138bff-e8e9-417a-abca-94992501236c",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 38091,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/alien-spitter-v1.glb",
+      "可编辑母版": "assets/models/masters/alien-spitter-v1.blend",
+      "正面预览": "assets/models/masters/alien-spitter-v1-front.png",
+      "背面预览": "assets/models/masters/alien-spitter-v1-back.png",
+      "游戏运行副本": "public/models/game/alien-spitter-v1.glb",
+      "游戏三角面": 10999,
+      "游戏贴图尺寸": 1024,
+      "动画边界": "已接入程序步态与攻击表现，最终骨骼和手部动画未验收"
+    },
+    {
+      "资产": "外星首领",
+      "任务标识": "1a59501b-b067-453b-a821-987e2334fc7e",
+      "链接": "https://studio.tripo3d.com/workspace/generate/1a59501b-b067-453b-a821-987e2334fc7e",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "三角面": 39552,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/alien-boss-v1.glb",
+      "可编辑母版": "assets/models/masters/alien-boss-v1.blend",
+      "正面预览": "assets/models/masters/alien-boss-v1-front.png",
+      "背面预览": "assets/models/masters/alien-boss-v1-back.png",
+      "游戏运行副本": "public/models/game/alien-boss-v1.glb",
+      "游戏三角面": 20000,
+      "游戏贴图尺寸": 1024,
+      "动画边界": "已接入程序步态与攻击表现，最终骨骼和手部动画未验收"
+    },
+    {
+      "资产": "警车残骸",
+      "任务标识": "b00b4e53-4c14-4ba5-883d-43ccbd10de07",
+      "链接": "https://studio.tripo3d.com/workspace/generate/b00b4e53-4c14-4ba5-883d-43ccbd10de07",
+      "状态": "已下载并保留母版；游戏副本已接入三分钟街区场景，资源加载与浏览器实测通过",
+      "设计图": "assets/concepts/vehicles/burned-police-car-v1.png",
+      "建模输入": "assets/models/tripo/inputs/burned-police-car/reference.png",
+      "三角面": 38560,
+      "材质数": 1,
+      "贴图数": 3,
+      "骨骼数": 0,
+      "本地原始文件": "assets/models/tripo/raw/burned-police-car-v1.glb",
+      "可编辑母版": "assets/models/masters/burned-police-car-v1.blend",
+      "正面预览": "assets/models/masters/burned-police-car-v1-front.png",
+      "背面预览": "assets/models/masters/burned-police-car-v1-back.png",
+      "游戏运行副本": "public/models/game/burned-police-car-v1.glb",
+      "游戏三角面": 14000,
+      "游戏贴图尺寸": 1024
+    },
+    {
+      "资产": "战术目镜",
+      "装备标识": "tactical-goggles",
+      "任务标识": "26661512-7f41-4423-a593-44a1ccade96a",
+      "链接": "https://studio.tripo3d.com/workspace/generate/26661512-7f41-4423-a593-44a1ccade96a",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-goggles-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-goggles-v1.blend",
+      "正面预览": "assets/models/masters/tactical-goggles-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-goggles-v1-back.png",
+      "三角面": 37701,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "战术背包",
+      "装备标识": "tactical-backpack",
+      "任务标识": "2039fa5e-07fa-4a79-afd5-98d5d0d04cb4",
+      "链接": "https://studio.tripo3d.com/workspace/generate/2039fa5e-07fa-4a79-afd5-98d5d0d04cb4",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-backpack-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-backpack-v1.blend",
+      "正面预览": "assets/models/masters/tactical-backpack-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-backpack-v1-back.png",
+      "三角面": 38439,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "战术靴",
+      "装备标识": "tactical-boot",
+      "任务标识": "9d30022e-555f-4ecc-9ff9-1d5b8f53dd74",
+      "链接": "https://studio.tripo3d.com/workspace/generate/9d30022e-555f-4ecc-9ff9-1d5b8f53dd74",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-boot-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-boot-v1.blend",
+      "正面预览": "assets/models/masters/tactical-boot-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-boot-v1-back.png",
+      "三角面": 38491,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "防弹衣一级",
+      "装备标识": "body-armor-i",
+      "任务标识": "538acdee-7491-43d7-b9bf-fc223eee9bf1",
+      "链接": "https://studio.tripo3d.com/workspace/generate/538acdee-7491-43d7-b9bf-fc223eee9bf1",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/body-armor-i-v1.glb",
+      "可编辑母版": "assets/models/masters/body-armor-i-v1.blend",
+      "正面预览": "assets/models/masters/body-armor-i-v1-front.png",
+      "背面预览": "assets/models/masters/body-armor-i-v1-back.png",
+      "三角面": 38824,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "防弹衣二级",
+      "装备标识": "body-armor-ii",
+      "任务标识": "67000df8-28f1-4f20-9ef6-8ef4ac7ff330",
+      "链接": "https://studio.tripo3d.com/workspace/generate/67000df8-28f1-4f20-9ef6-8ef4ac7ff330",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/body-armor-ii-v1.glb",
+      "可编辑母版": "assets/models/masters/body-armor-ii-v1.blend",
+      "正面预览": "assets/models/masters/body-armor-ii-v1-front.png",
+      "背面预览": "assets/models/masters/body-armor-ii-v1-back.png",
+      "三角面": 37324,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "防弹衣三级",
+      "装备标识": "body-armor-iii",
+      "任务标识": "029b6ee9-0b73-4e3b-bb85-f87e1f9d0f59",
+      "链接": "https://studio.tripo3d.com/workspace/generate/029b6ee9-0b73-4e3b-bb85-f87e1f9d0f59",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/body-armor-iii-v1.glb",
+      "可编辑母版": "assets/models/masters/body-armor-iii-v1.blend",
+      "正面预览": "assets/models/masters/body-armor-iii-v1-front.png",
+      "背面预览": "assets/models/masters/body-armor-iii-v1-back.png",
+      "三角面": 37137,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "模块化战术头盔",
+      "装备标识": "tactical-helmet",
+      "任务标识": "0fe5ca1c-2ceb-4f11-abd6-a0f4b0076772",
+      "链接": "https://studio.tripo3d.com/workspace/generate/0fe5ca1c-2ceb-4f11-abd6-a0f4b0076772",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-helmet-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-helmet-v1.blend",
+      "正面预览": "assets/models/masters/tactical-helmet-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-helmet-v1-back.png",
+      "三角面": 38237,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "通信耳机",
+      "装备标识": "tactical-headset",
+      "任务标识": "9500346a-1f25-48c8-88c0-1205f9b56d31",
+      "链接": "https://studio.tripo3d.com/workspace/generate/9500346a-1f25-48c8-88c0-1205f9b56d31",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-headset-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-headset-v1.blend",
+      "正面预览": "assets/models/masters/tactical-headset-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-headset-v1-back.png",
+      "三角面": 38308,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "战术手套",
+      "装备标识": "tactical-glove",
+      "任务标识": "3718e883-57d6-4b96-815e-d67f152ff5ea",
+      "链接": "https://studio.tripo3d.com/workspace/generate/3718e883-57d6-4b96-815e-d67f152ff5ea",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-glove-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-glove-v1.blend",
+      "正面预览": "assets/models/masters/tactical-glove-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-glove-v1-back.png",
+      "三角面": 38574,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "战术护膝",
+      "装备标识": "tactical-knee-pad",
+      "任务标识": "dfd464e1-dad4-411b-b0e6-d422599f35b0",
+      "链接": "https://studio.tripo3d.com/workspace/generate/dfd464e1-dad4-411b-b0e6-d422599f35b0",
+      "状态": "静态模型初稿已下载；结构与贴图检查通过；双面已检视，角色挂载及动画尚未验收",
+      "积分": 45,
+      "输入视图数": 4,
+      "本地原始文件": "assets/models/tripo/raw/tactical-knee-pad-v1.glb",
+      "可编辑母版": "assets/models/masters/tactical-knee-pad-v1.blend",
+      "正面预览": "assets/models/masters/tactical-knee-pad-v1-front.png",
+      "背面预览": "assets/models/masters/tactical-knee-pad-v1-back.png",
+      "三角面": 37259,
+      "材质数": 1,
+      "贴图数": 3
+    },
+    {
+      "资产": "素装基础士兵第二版",
+      "任务标识": "bd0464db-c7d1-4d7a-82ed-a4e95bd60fd5",
+      "链接": "https://studio.tripo3d.com/workspace/generate/bd0464db-c7d1-4d7a-82ed-a4e95bd60fd5",
+      "状态": "正背面出现两张脸，已拒绝接入，缺陷文件仅作失败证据保留；费用已记录",
+      "输入视图数": 4,
+      "积分": 45
+    },
+    {
+      "资产": "素装基础士兵第三版（纠正侧视映射）",
+      "任务标识": "3e013368-d9e0-4ceb-9ac3-392ba3ed61d8",
+      "链接": "https://studio.tripo3d.com/workspace/generate/3e013368-d9e0-4ceb-9ac3-392ba3ed61d8",
+      "状态": "正背左右与鞋尖朝向检查通过；完成四十一骨骼与行走绑定；独立装备游戏副本已接入换装",
+      "输入视图数": 4,
+      "积分": 45,
+      "骨骼数": 41,
+      "行走动画轨道数": 123,
+      "绑定积分": 20
+    },
+    {
+      "资产": "原图手枪",
+      "任务标识": "bdf1db24-b4bb-424f-a0a9-beebbb4d9863",
+      "链接": "https://studio.tripo3d.com/workspace/generate/bdf1db24-b4bb-424f-a0a9-beebbb4d9863",
+      "建模输入": "assets/models/tripo/inputs/pistol/reference.png",
+      "原图": "assets/concepts/weapons/pistol-design-v1.png",
+      "状态": "原图模型、四千像素贴图及母版已完成；二千像素游戏副本已接入经典模式，自动测试和后台浏览器检查通过",
+      "积分": 55,
+      "生成设置": {
+        "模型": "v3.1",
+        "面数上限": 120000,
+        "贴图": "4K",
+        "PBR": true
+      },
+      "本地原始文件": "assets/models/tripo/raw/pistol-textured-v2.glb",
+      "文件摘要": "cbe116ce2492960558d8f53e535323d2ffa6d1e6d6e635eadb285ebd765d567f",
+      "三角面": 109558,
+      "贴图数": 3,
+      "可编辑母版": "assets/models/masters/pistol-tripo-v2.blend",
+      "正面预览": "assets/models/masters/pistol-tripo-v2-front.png",
+      "背面预览": "assets/models/masters/pistol-tripo-v2-back.png"
+    },
+    {
+      "资产": "原图冲锋枪",
+      "任务标识": "c3603f80-080b-47c4-9a53-becd28fbba2d",
+      "链接": "https://studio.tripo3d.com/workspace/generate/c3603f80-080b-47c4-9a53-becd28fbba2d",
+      "建模输入": "assets/models/tripo/inputs/smg/reference.png",
+      "原图": "assets/concepts/weapons/submachine-gun-design-v1.png",
+      "状态": "原图模型、四千像素贴图及母版已完成；二千像素游戏副本已接入经典模式，自动测试和后台浏览器检查通过",
+      "积分": 55,
+      "生成设置": {
+        "模型": "v3.1",
+        "面数上限": 120000,
+        "贴图": "4K",
+        "PBR": true
+      },
+      "本地原始文件": "assets/models/tripo/raw/smg-textured-v2.glb",
+      "文件摘要": "9f850e322462d1c44b7f7982660c587ca55d316b617b6445722ee8bb911fa24c",
+      "三角面": 111658,
+      "贴图数": 3,
+      "可编辑母版": "assets/models/masters/smg-tripo-v2.blend",
+      "正面预览": "assets/models/masters/smg-tripo-v2-front.png",
+      "背面预览": "assets/models/masters/smg-tripo-v2-back.png"
+    },
+    {
+      "资产": "原图火箭炮",
+      "任务标识": "69f2248b-d8d2-4328-829a-a6e7cf5710b6",
+      "链接": "https://studio.tripo3d.com/workspace/generate/69f2248b-d8d2-4328-829a-a6e7cf5710b6",
+      "建模输入": "assets/models/tripo/inputs/rocket-launcher/reference.png",
+      "原图": "assets/concepts/weapons/rocket-launcher-design-v1.png",
+      "状态": "模型与四千像素贴图已生成、下载；母版与双面静态检查通过；尚未新增游戏玩法",
+      "积分": 55,
+      "生成设置": {
+        "模型": "v3.1",
+        "面数上限": 120000,
+        "贴图": "4K",
+        "PBR": true
+      },
+      "本地原始文件": "assets/models/tripo/raw/rocket-launcher-textured-v2.glb",
+      "文件摘要": "01565fd39eab4daf126a005739e389a0c82e7b41b6e5e569abf063556e01aaac",
+      "三角面": 114680,
+      "贴图数": 3,
+      "可编辑母版": "assets/models/masters/rocket-launcher-tripo-v2.blend",
+      "正面预览": "assets/models/masters/rocket-launcher-tripo-v2-front.png",
+      "背面预览": "assets/models/masters/rocket-launcher-tripo-v2-back.png"
+    }
+  ],
+  "下载文件": [
+    {
+      "文件": "assets/models/tripo/raw/assault-rifle-parts-v1.glb",
+      "字节数": 1113536,
+      "校验值": "b064bd3d492b96de19c3d80ab33543328310678d58f88fce1c5a1e474f4ae9d5"
+    },
+    {
+      "文件": "assets/models/tripo/raw/assault-rifle-textured-v1.glb",
+      "字节数": 2715364,
+      "校验值": "c635d4beb6c106ebf1303b382574daf8ad9180c12c1d889cb61be356a7913611"
+    },
+    {
+      "文件": "assets/models/tripo/raw/soldier-parts-v1.glb",
+      "字节数": 1764584,
+      "校验值": "2d01fc6bdd982d9e9dab7510d258561b58df9a49291227528e3b70988e31b4d0"
+    },
+    {
+      "文件": "assets/models/tripo/raw/soldier-rigged-v1.glb",
+      "字节数": 4422420,
+      "校验值": "bacb1e5a47d56bb7fb4ed88e938635370f12d2d7de6ec9c6749729748b45e291"
+    },
+    {
+      "文件": "assets/models/tripo/raw/soldier-textured-v1.glb",
+      "字节数": 3311236,
+      "校验值": "4b94fca97d1d6b921a964b089b8b25d001e72465b8993c2935fc3bf6290fa4e0"
+    },
+    {
+      "文件": "assets/models/tripo/raw/soldier-walk-v1.glb",
+      "字节数": 4473784,
+      "校验值": "1043c6991b5355098439bdc0109f035bda4499333d1cffd33d1920d89fff8c8a"
+    },
+    {
+      "文件": "assets/models/tripo/raw/ruined-storefront-v1.glb",
+      "字节数": 5232596,
+      "校验值": "951b92a922fcb01db147f0a7e432d1e74a7c41d10b1fa6357eb0b19d27fda274"
+    },
+    {
+      "文件": "assets/models/tripo/raw/road-barricade-v1.glb",
+      "字节数": 5611188,
+      "校验值": "588a0f9ce1bb7b18ace6e736418c9e307deb9ff26bfa9928c02d4dab1b8bc0a3"
+    },
+    {
+      "文件": "assets/models/tripo/raw/burned-sedan-v1.glb",
+      "字节数": 5924564,
+      "校验值": "c2c2fb11b5ab9fcefa6c9055ad5c452b0c63406b128f985fa823e4a4cc984283"
+    },
+    {
+      "文件": "assets/models/tripo/raw/burned-armored-van-v1.glb",
+      "字节数": 4593204,
+      "校验值": "8f584304e37a3ab74d15654e467a1157670cab0639a7a52aa13860e6bbf31fd8"
+    },
+    {
+      "文件": "assets/models/tripo/raw/enemy-rifleman-v1.glb",
+      "字节数": 5279512,
+      "校验值": "277872327fce16a2ee7bfebd82dccd1cae9ed936cd2854605faeb3c6b6b9f023"
+    },
+    {
+      "文件": "assets/models/tripo/raw/enemy-flanker-v1.glb",
+      "字节数": 5076708,
+      "校验值": "8ff7119552e5c7fbf19b38815d979d7413614ef3eefbddfa7158c5883468ba9d"
+    },
+    {
+      "文件": "assets/models/tripo/raw/alien-pouncer-v1.glb",
+      "字节数": 6610560,
+      "校验值": "a5f0af9c4d85d1b61446907f0eae61776e036c58369dae091b37f73de8e2dc8b"
+    },
+    {
+      "文件": "assets/models/tripo/raw/alien-spitter-v1.glb",
+      "字节数": 4848156,
+      "校验值": "10a01b6ff46ce5b2c174631b2ccb90488130fb2df20321ea964180af376086c5"
+    },
+    {
+      "文件": "assets/models/tripo/raw/alien-boss-v1.glb",
+      "字节数": 5611360,
+      "校验值": "c4e7a2345f5b7dcf6113fcb46a54d34ed50a2bfd7ca39848090ab4f1fbcdfe05"
+    },
+    {
+      "文件": "assets/models/tripo/raw/burned-police-car-v1.glb",
+      "字节数": 5246356,
+      "校验值": "917d146c0eff3f46048274a45e4ef16454fb3f7a55b99a57400627d4bed87307"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-goggles-v1.glb",
+      "字节数": 5602400,
+      "校验值": "4750a38c4802fa712c4918dbca767d83e1fb8f046792ffabcf19c16e8e5cef50"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-backpack-v1.glb",
+      "字节数": 4766884,
+      "校验值": "dbc4cedab135c0322eb1989ddb40f3f2b48fd00a6b2151d7f7e06cfe9c22412b"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-boot-v1.glb",
+      "字节数": 5648440,
+      "校验值": "8826ea32373a26c3739b899901aeaf8fecc7e764e491f900795ec7c60e272b88"
+    },
+    {
+      "文件": "assets/models/tripo/raw/body-armor-i-v1.glb",
+      "字节数": 4475408,
+      "校验值": "2210a6f72600d6d4661a8f3524565052b046f1396e7387268c61b5a86ce7f04e"
+    },
+    {
+      "文件": "assets/models/tripo/raw/body-armor-ii-v1.glb",
+      "字节数": 5008352,
+      "校验值": "129b74b20d3e6b9864757a1995a1d56f185270d3a9290ebe56e5f350b0ef85c4"
+    },
+    {
+      "文件": "assets/models/tripo/raw/body-armor-iii-v1.glb",
+      "字节数": 4846608,
+      "校验值": "79db7cc2fbbd7e23f2d87253567ce979e4d925b871460e13f2af89209a4e2447"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-helmet-v1.glb",
+      "字节数": 5198608,
+      "校验值": "8e3c19c45c285cb92da99aa235e83ccf6a39ebe8dc30beb444fdfed4c8f5b19b"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-headset-v1.glb",
+      "字节数": 5160308,
+      "校验值": "afdf309105c49cc744060c43bc70af3c599acaf850c45437f883896afbc8c280"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-glove-v1.glb",
+      "字节数": 5254532,
+      "校验值": "7858c1170ce46d702a40c155021d7265abc433fef92bc0382ca5f123449bb3e3"
+    },
+    {
+      "文件": "assets/models/tripo/raw/tactical-knee-pad-v1.glb",
+      "字节数": 5166540,
+      "校验值": "b82c38be236ed4f61535e82fd92fa8e7f3a408c7e06b8ccadbca034fee7f1ad5"
+    },
+    {
+      "文件": "assets/models/tripo/raw/base-soldier-textured-v2.glb",
+      "字节数": 5176312,
+      "校验值": "e8dc9a5f525487519f4993e2c1ec4d2c5a0dd247f5aea85df90bbe6adc59cd12"
+    },
+    {
+      "文件": "assets/models/tripo/raw/base-soldier-rigged-v2.glb",
+      "字节数": 6224940,
+      "校验值": "06f0db692e5f890e66b08e66c6b5824af82fe48685ea0bbf99047f9523d3c8b8"
+    },
+    {
+      "文件": "assets/models/tripo/raw/base-soldier-textured-v3.glb",
+      "字节数": 5023596,
+      "校验值": "f10790fda324adfec8649344b5d121d0291cd758a12a21e7b1df4ae174a08a10"
+    },
+    {
+      "文件": "assets/models/tripo/raw/base-soldier-walk-v3.glb",
+      "字节数": 5472408,
+      "校验值": "5815a910b7aac4bb3035785ddb5ad72b0da07995ed6cdd2187bbb634b00b16a8"
+    }
+  ],
+  "边界": "当前已接入十五类外观穿戴与完整武装造型；原始资产及第三版保留，第二版缺陷人物未接入。独立指骨、最终近景精修、掉落解锁和属性成长、三十分钟稳定性仍未完成。",
+  "本地适配记录": [
+    {
+      "版本": "full-kit-v4",
+      "日期": "2026-10-25",
+      "说明": "基于原始全装母版和新版素装骨架制作十五类可拆装备并接入游戏",
+      "新增积分": 0,
+      "游戏文件": "public/models/game/modular-soldier-v4.glb",
+      "验收": "docs/development/full-kit-v4-validation.md"
+    },
+    {
+      "版本": "headgear-v5",
+      "日期": "2026-10-26",
+      "说明": "保留第四版脸型、人体及非头部装备，修正连续盔壳、密封目镜、贴耳耳罩与下颌带；同机位对照与游戏动作验证完成",
+      "新增积分": 0,
+      "游戏文件": "public/models/game/modular-soldier-v5.glb",
+      "验收": "docs/development/headgear-v5-validation.md"
+    }
+  ]
+}

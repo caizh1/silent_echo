@@ -1,0 +1,142 @@
+{
+  "说明": "静止姿态、保留四十一骨骼与绑定权重；素装、全装及十七套装备均在同一绑定坐标；独立全装不包含轻中档胸甲，不会叠穿三档",
+  "文件": [
+    {
+      "文件": "assets/models/derived/full-kit-v5/base-soldier-v5.glb",
+      "网格数": 6,
+      "字节数": 4031612,
+      "校验值": "d6b09f110d49112034c610db4011c8e47e4b7c05e698e2fa61efe5869708efd7",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/full-kit-soldier-v5.glb",
+      "网格数": 43,
+      "字节数": 16436420,
+      "校验值": "b31d65db4848987c754f6401152e23414b56031b43c7298ba71ce773407f4217",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/armor-i-v5.glb",
+      "网格数": 1,
+      "字节数": 1296052,
+      "校验值": "628282f1e561e4572b5459efb3a565bd15ada778e223c30b9519a1a90fc1c30a",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/armor-ii-v5.glb",
+      "网格数": 1,
+      "字节数": 1400076,
+      "校验值": "a3e9202f981a66bee05cf99109e947d6572291ce51a5098b58a6e2d7f3a351d5",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/armor-iii-v5.glb",
+      "网格数": 3,
+      "字节数": 626788,
+      "校验值": "772c3e167bf7ec12f2dd5c97a0a0b11a3e2fc244a7d77cd2f9c2685a095a1616",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/backpack-v5.glb",
+      "网格数": 1,
+      "字节数": 303272,
+      "校验值": "7cccaf47fd98500653078b1315b3051fa086d954225527b07a66a414ab3ad51e",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/belt-v5.glb",
+      "网格数": 1,
+      "字节数": 298936,
+      "校验值": "090c420e8bee8bc9e457aeb97f9c7037eafb7b769d86157c2fe53d53cf5dc7d9",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/boots-v5.glb",
+      "网格数": 2,
+      "字节数": 379220,
+      "校验值": "c39bf0f6ddd08842e45e81c84abc425cc7ff04bdfb3823013fb0f19bf21540a4",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/elbows-v5.glb",
+      "网格数": 2,
+      "字节数": 284980,
+      "校验值": "61cbd22397027bedf5b7870de1b6840fafa9a73f7d51008ae25d09e633d4419a",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/forearms-v5.glb",
+      "网格数": 4,
+      "字节数": 328400,
+      "校验值": "3f0b6befae20a0b3e5dc8824c2ca5fb0ad713d53d434451731b035dae8584369",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/gloves-v5.glb",
+      "网格数": 2,
+      "字节数": 1363448,
+      "校验值": "a02cf5a2d56aa50f5296f4306968d0009cc489552ff91ad6229fdb01ab3420ff",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/goggles-v5.glb",
+      "网格数": 2,
+      "字节数": 4725500,
+      "校验值": "4cbcaaaf9af02e570e9aa9cc0a1f465d8d43880fc539f4374a4283d212bdc074",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/headset-v5.glb",
+      "网格数": 1,
+      "字节数": 4759380,
+      "校验值": "8f105a3fd121fd6d6ad980ff1675f5a3f155707ed2d0b6366f7332414da2ddc5",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/helmet-v5.glb",
+      "网格数": 1,
+      "字节数": 5668436,
+      "校验值": "cff7097d51765c17f54c3e1d5c8c115205ea75e2f380e249a81ad3b084d5652a",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/kneepads-v5.glb",
+      "网格数": 6,
+      "字节数": 1050260,
+      "校验值": "f995c2f48225c08751e916971b873319f30347674d6e8da10ea1328210e966ca",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/neckguard-v5.glb",
+      "网格数": 1,
+      "字节数": 90760,
+      "校验值": "3db62efcd769a503b5b9cb68906b9680049eedd9d13b97a5b78e7668f5b52253",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/shinguards-v5.glb",
+      "网格数": 6,
+      "字节数": 967964,
+      "校验值": "d11c1ee7897851df11154e126cec725ac43520037db5803ea5ef020c19265d9f",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/shoulders-v5.glb",
+      "网格数": 2,
+      "字节数": 325428,
+      "校验值": "cc48981bfce8f3b0b87f6cd5f2c9a0c1d2d73367ba44bf02c64ef47b85753e46",
+      "独立导入通过": true
+    },
+    {
+      "文件": "assets/models/derived/full-kit-v5/thighpouches-v5.glb",
+      "网格数": 6,
+      "字节数": 997996,
+      "校验值": "9f44245589fc47e44a9b9394773cb988cc2bfc5072beb9754e07a68e541235ff",
+      "独立导入通过": true
+    }
+  ],
+  "边界": "这些文件用于编辑复用；游戏使用包含一段行走与全部档位的合并运行副本。分件在完整项目内重建。第三方重新生成或独立归一化后需重新核对坐标。",
+  "绑定坐标最大误差米": 0,
+  "骨骼矩阵最大元素差异": 0,
+  "验收": "十九个文件独立导入，四十一骨骼及其矩阵一致；素装身高正确，全装与对应分件边界一致"
+}

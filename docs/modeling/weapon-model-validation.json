@@ -1,0 +1,74 @@
+{
+  "模型": [
+    {
+      "武器": "pistol",
+      "源文件": "assets/models/tripo/raw/pistol-textured-v2.glb",
+      "源文件摘要": "cbe116ce2492960558d8f53e535323d2ffa6d1e6d6e635eadb285ebd765d567f",
+      "输出": "/models/weapons/pistol-v1.glb",
+      "三角面总数含替换件": 139880,
+      "语义节点": [
+        "weapon-body-mesh",
+        "magazine-standard",
+        "optic",
+        "stock-upgraded",
+        "right-grip",
+        "left-grip",
+        "grip-hand",
+        "magazine-extended",
+        "muzzle"
+      ],
+      "贴图最大尺寸": 2048,
+      "枪口局部高度米": 0.051,
+      "程序枪口高度米": 1.331,
+      "说明": "主体与可提取配件来自原图 Tripo 模型；冲锋枪前握把复用原免费配件。互斥替换件不同时显示。"
+    },
+    {
+      "武器": "smg",
+      "源文件": "assets/models/tripo/raw/smg-textured-v2.glb",
+      "源文件摘要": "9f850e322462d1c44b7f7982660c587ca55d316b617b6445722ee8bb911fa24c",
+      "输出": "/models/weapons/smg-v1.glb",
+      "三角面总数含替换件": 146594,
+      "语义节点": [
+        "weapon-body-mesh",
+        "optic",
+        "stock-standard",
+        "magazine-standard",
+        "stock-upgraded",
+        "grip",
+        "right-grip",
+        "left-grip",
+        "grip-hand",
+        "magazine-extended",
+        "muzzle"
+      ],
+      "贴图最大尺寸": 2048,
+      "枪口局部高度米": 0.052589,
+      "程序枪口高度米": 1.332589,
+      "说明": "主体与可提取配件来自原图 Tripo 模型；冲锋枪前握把复用原免费配件。互斥替换件不同时显示。"
+    },
+    {
+      "武器": "rifle",
+      "源文件": "public/models/assault-rifle-textured-v1.glb",
+      "源文件摘要": "c635d4beb6c106ebf1303b382574daf8ad9180c12c1d889cb61be356a7913611",
+      "输出": "/models/weapons/rifle-v1.glb",
+      "三角面总数含替换件": 59918,
+      "语义节点": [
+        "ParentNode",
+        "magazine-standard",
+        "weapon-body-mesh",
+        "stock-standard",
+        "magazine-extended",
+        "optic",
+        "stock-upgraded",
+        "grip",
+        "right-grip",
+        "left-grip",
+        "grip-hand",
+        "muzzle"
+      ],
+      "说明": "三角面总数包含互斥替换件；实际游戏只显示当前配置。"
+    }
+  ],
+  "手雷来源": "Kenney Blaster Kit 2.1，CC0，最长边零点一八米",
+  "检查边界": "原图模型分槽位导出；功能、实际握持与浏览器验收另行记录。"
+}

@@ -1,0 +1,91 @@
+{
+  "日期": "2026-10-25",
+  "测试": {
+    "退出码": 0,
+    "用例数": 52,
+    "通过": 52,
+    "失败": 0,
+    "耗时秒": 5.512
+  },
+  "生产构建": {
+    "退出码": 0,
+    "耗时秒": 2.163
+  },
+  "验证期间源码一致": true,
+  "真实模型覆盖": {
+    "武器种类": 3,
+    "兼容配件组合": 40,
+    "方向与换弹姿态样本": 7680,
+    "双手握点误差门槛米": 0.03
+  },
+  "固定弹道样本": {
+    "每种配置发射数": 1200,
+    "无瞄具命中率百分比": 65.0,
+    "安装瞄具命中率百分比": 99.9,
+    "边界": "只证明固定目标样本，不是正常难度平衡结论。"
+  },
+  "模型输出": [
+    {
+      "文件": "public/models/weapons/grenade-v1.glb",
+      "字节数": 13352,
+      "文件摘要": "09d5cadb05a46712ba8723b2bb008331d3b3576fc56ea20e2a3b0b20870eb7a6"
+    },
+    {
+      "文件": "public/models/weapons/pistol-v1.glb",
+      "字节数": 121900,
+      "文件摘要": "c02dd8347d5b3557f479dcfc4c328942d9417986508b1e57ad041a9c49b11c9e"
+    },
+    {
+      "文件": "public/models/weapons/rifle-v1.glb",
+      "字节数": 2697492,
+      "文件摘要": "454a61f5a4d57988ba2b6ca242d0b9b1544a213209a7664f8fa8e58174c665db"
+    },
+    {
+      "文件": "public/models/weapons/smg-v1.glb",
+      "字节数": 163528,
+      "文件摘要": "e1742a4f1719daeef4884aebf70b46652b81e19b686af703cda5f83e47936404"
+    }
+  ],
+  "浏览器证据": "outputs/weapon-integration/browser-validation.json",
+  "源码快照": {
+    "src/actor.ts": "652842cef0440f82df930fe1fcd1f06878174a89e59b92956832edf703a44435",
+    "src/ammo-audio.ts": "b2ee2032c8998631ac6df7ee93a542e40bf47bbb039caeea728519d33319c7a0",
+    "src/ammo.ts": "123a4e8ec674a14f5132cc7d7edaefc184bf5d2dfe89a907c9a0cefb000cd8bb",
+    "src/ballistics.ts": "a1a52ea2f17c4781732c7971cf7b190f78362bef914b33614f1e0c756e70fe1a",
+    "src/combat-effects.ts": "c4303fa7c7e034cabcf5e0d45212b79fcd6a8e5333a4cf68b57e70b0b7d56791",
+    "src/enemies.ts": "fe055e994616bfa33fa4fc2706ec20aa2f9453f55388b094e1810b5a2b1cbf57",
+    "src/fire.ts": "ed116aad92ed0244a7a770d0509c1203de6249fdf22988a43ff1d31080aa7354",
+    "src/grenades.ts": "e0088eab881a8de02ee2ec6f29113858437fe23f10649a2315419d0ac9f3ba73",
+    "src/gun-audio.ts": "b612ddbc533c6ae7aa973660c9081e188d7ec0629b9c7e4a009779060b9cf3ac",
+    "src/level.ts": "ee758507dea31a69c742c7287837dadf57db6cdbbac633ae5b686cadcd1988df",
+    "src/loadout-preview.ts": "34a49b7e969f1a4f32e59ccb606b10487a8fe67eabd73ad074a96b3042d10901",
+    "src/main.ts": "0d4eb59a696ce2f46eaf1f898902fb07fd2fa6f268900ef106ff8aa18f131a86",
+    "src/model-data.ts": "3d7f98c6ee629af22368e9e3fed8b57ef488660b925304107bf4c7188c06c652",
+    "src/models.ts": "49cccdde079c2ffabe1b1e2f27536e531f4415fd0635364749345b1309b159e5",
+    "src/modular-actor.ts": "3bfa7b8d4b76fce0d63df7bcc0e7aefd24bff351acfe1fa156a5b6c367514871",
+    "src/outfit-panel.ts": "9d19f76765a32113d923f2199d8c5ea3f988d50575f595766bb7bf2833f7167e",
+    "src/outfit-preview.ts": "1d67d1a0b8222766ba8a0f60fe2e6e440a912039fa9fd37ced4a5b156f85f9ed",
+    "src/outfit.css": "f111cf7702095bdfbfdae81ee5affed32d5e3e322d420fb85901dcea5a8b982c",
+    "src/outfit.ts": "ea1c3f15f225f8b802d5d931670e8d1355628e350a786d79c4109b73b182e4df",
+    "src/simulation.ts": "50419b3d49736c0b2085c154325ebb7e87503c8d5c1ad5580a4a5078dd982a51",
+    "src/street.ts": "43511c8cce0886021ac442b6cd9cce4c3928b5532c557dc79adbaa2ee6c10dc0",
+    "src/style.css": "1670f5df5214f58769c0bff8346c17c7326456f184133b764e35523a6a9be4d2",
+    "src/supplies.ts": "12841505aded68c8614922777803879e1f1d41bb619474b21e65457881ba152c",
+    "src/ui.ts": "423e6a254aa199f7ce5e1da08f055b61023bb2864235313d92990ee87e8fe156",
+    "src/weapons.ts": "e3e32f0ca70867e8c7c4c8d0971788b1ee9ce2d4caea3376b85350b77259d2e7",
+    "tests/actor.test.ts": "817d7f6920881f33cfd2269bd7deddf6dcb53141ca70f9fa80456c3c8534ee65",
+    "tests/ammo.test.ts": "fa48ae45cc43d9b6fc9f7fb2333d9bbba50c908c10e47b8f806f8cfa09eae62a",
+    "tests/combat-effects.test.ts": "cda8db0a8d50ee4f06fee583bfd4c7119ae4edbcb698a463d5a8ec392e07dfe5",
+    "tests/integration.test.ts": "9359cf631920c875c3a6c31b3b0d0afb72b73976822f2ca5a11a2e5144749612",
+    "tests/load-model.ts": "5786d6e4fdef78d285fb34d30484da99dd904127ecd48a7ddc37f7e33f3993b3",
+    "tests/rifle-fixture.ts": "be0482eb0b7ef8de4894c6546e6619045ad1c38d0c25e94d3900b4b3e470f8fe",
+    "tests/simulation.test.ts": "c19561a29cdf094db2230599277bfcc4496e8fb25bb219d2cc23f3ceee596008",
+    "tests/weapons.test.ts": "99f30c571abb9166bd2bb94e669613f929dd817d57a1fe7652ea39196d1a9cf0"
+  },
+  "未验证": [
+    "长期正常难度平衡",
+    "三十分钟连续稳定性",
+    "物理手机表现",
+    "相对真实人工基线节省百分之八十"
+  ]
+}

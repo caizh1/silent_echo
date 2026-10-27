@@ -1,0 +1,41 @@
+/* 换装控件始终使用正常文档流，预览画布单独占据网格区域。 */
+.hud-controls { min-width: 0; flex-wrap: wrap; }
+.outfit-overlay { grid-area: 1 / 1; z-index: 8; overflow: auto; min-width: 0; min-height: 0; padding: clamp(16px,3vw,36px); background: #0b1318f5; }
+.outfit-dialog { width: min(1160px,100%); min-height: 100%; margin: auto; display: grid; grid-template-columns: minmax(260px,340px) minmax(0,1fr); grid-template-rows: auto minmax(0,1fr); gap: 22px 28px; align-content: start; }
+.outfit-heading { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; min-width: 0; }
+.outfit-heading .kicker { margin: 0 0 8px; }
+.outfit-heading h2 { margin: 0; font-size: 28px; font-weight: 500; letter-spacing: .12em; }
+.outfit-heading p:last-child { margin: 10px 0 0; color: #aebcae; font-size: 12px; }
+.outfit-controls { min-width: 0; }
+.outfit-presets { display: flex; flex-wrap: wrap; gap: 7px; }
+.outfit-dialog button { min-height: 38px; border: 1px solid #859b8855; color: #bfccbd; background: #142227; padding: 8px 12px; }
+.outfit-dialog button:hover { border-color: var(--accent); }
+.outfit-dialog button[aria-pressed="true"] { color: #e1efb5; border-color: #c6d58c; background: #354332; }
+.outfit-heading .icon-button { padding: 8px; }
+.outfit-controls h3 { font-weight: 500; font-size: 12px; letter-spacing: .08em; color: #d1dec6; margin: 24px 0 11px; }
+.outfit-armor { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; }
+.outfit-slots { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 9px; }
+.outfit-slots button { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 5px; min-width: 0; min-height: 65px; text-align: left; font-size: 12px; }
+.outfit-state { color: #899c94; font-size: 10px; }
+.outfit-dialog button[aria-pressed="true"] .outfit-state { color: #bccf96; }
+.outfit-note { color: #8ea29a; font-size: 11px; line-height: 1.8; margin: 22px 0 0; }
+.outfit-visual { min-width: 0; align-self: start; position: sticky; top: 0; z-index: 1; background: #0b1318; }
+.outfit-preview { height: clamp(290px,61dvh,650px); border: 1px solid #748e7d40; background: #182328; overflow: hidden; }
+.outfit-preview canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+.outfit-view-controls { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px; margin-block: 10px; font-size: 10px; color: #96aaa0; }
+.outfit-view-controls button { flex: 0 0 38px; font-size: 19px; }
+.outfit-view-controls button[data-outfit-view] { flex-basis: 54px; font-size: 11px; }
+.outfit-gesture { text-align: center; color: #96aaa0; font-size: 10px; margin: 0 0 10px; }
+.outfit-poses { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px; }
+.outfit-poses button { font-size: 11px; }
+@media (max-width:700px) {
+  .outfit-dialog { grid-template-columns: minmax(0,1fr); gap: 15px; }
+  .outfit-heading { grid-row: 1; }
+  .outfit-visual { grid-row: 2; position: sticky; top: 0; z-index: 1; background: #0b1318; padding-bottom: 8px; }
+  .outfit-controls { grid-row: 3; }
+  .outfit-preview { height: clamp(240px,43dvh,410px); }
+  .outfit-slots { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .outfit-heading h2 { font-size: 24px; }
+  .outfit-controls h3 { margin-top: 18px; }
+}
+

@@ -1,0 +1,2 @@
+# 历史验收压缩包使用大文件存储。
+outputs/*/*.zip filter=lfs diff=lfs merge=lfs -text

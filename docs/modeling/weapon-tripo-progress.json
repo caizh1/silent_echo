@@ -1,0 +1,122 @@
+{
+  "日期": "2026-10-26",
+  "范围": "手枪、冲锋枪、火箭炮；其余已有原图的三维资产复用已生成的 Tripo 模型。",
+  "用户要求": "有原图的就直接用 Tripo 建模。",
+  "生成设置": {
+    "模型": "v3.1",
+    "面数上限": 120000,
+    "贴图": "4K",
+    "PBR": true,
+    "网站单件报价": 55
+  },
+  "预算": {
+    "上限": 2000,
+    "历史已用": 1190,
+    "本批预计": 165,
+    "预计累计": 1355,
+    "预计预算内余量": 645,
+    "提交前网站余额": 990,
+    "本批实际扣费": 165,
+    "实际累计": 1355,
+    "实际预算内余量": 645,
+    "提交后网站余额": 825
+  },
+  "任务": [
+    {
+      "资产": "原图手枪",
+      "原图": "assets/concepts/weapons/pistol-design-v1.png",
+      "输入": "assets/models/tripo/inputs/pistol/reference.png",
+      "提取范围": [
+        300,
+        10,
+        1225,
+        615
+      ],
+      "说明": "仅从原图提取完整单体主视图，去除标题与重复小视图，不重新生成或改变造型。",
+      "状态": "原图模型、四千像素贴图及母版已完成；二千像素游戏副本已接入经典模式，自动测试和后台浏览器检查通过",
+      "任务标识": "bdf1db24-b4bb-424f-a0a9-beebbb4d9863",
+      "积分": 55,
+      "链接": "https://studio.tripo3d.com/workspace/generate/bdf1db24-b4bb-424f-a0a9-beebbb4d9863",
+      "建模输入": "assets/models/tripo/inputs/pistol/reference.png",
+      "生成设置": {
+        "模型": "v3.1",
+        "面数上限": 120000,
+        "贴图": "4K",
+        "PBR": true
+      },
+      "本地原始文件": "assets/models/tripo/raw/pistol-textured-v2.glb",
+      "文件摘要": "cbe116ce2492960558d8f53e535323d2ffa6d1e6d6e635eadb285ebd765d567f",
+      "三角面": 109558,
+      "贴图数": 3,
+      "可编辑母版": "assets/models/masters/pistol-tripo-v2.blend",
+      "正面预览": "assets/models/masters/pistol-tripo-v2-front.png",
+      "背面预览": "assets/models/masters/pistol-tripo-v2-back.png"
+    },
+    {
+      "资产": "原图冲锋枪",
+      "原图": "assets/concepts/weapons/submachine-gun-design-v1.png",
+      "输入": "assets/models/tripo/inputs/smg/reference.png",
+      "提取范围": [
+        300,
+        0,
+        1370,
+        610
+      ],
+      "说明": "仅从原图提取完整单体主视图，去除标题与重复小视图，不重新生成或改变造型。 已清除单体轮廓之外的边角标题残片。",
+      "状态": "原图模型、四千像素贴图及母版已完成；二千像素游戏副本已接入经典模式，自动测试和后台浏览器检查通过",
+      "任务标识": "c3603f80-080b-47c4-9a53-becd28fbba2d",
+      "积分": 55,
+      "链接": "https://studio.tripo3d.com/workspace/generate/c3603f80-080b-47c4-9a53-becd28fbba2d",
+      "建模输入": "assets/models/tripo/inputs/smg/reference.png",
+      "生成设置": {
+        "模型": "v3.1",
+        "面数上限": 120000,
+        "贴图": "4K",
+        "PBR": true
+      },
+      "本地原始文件": "assets/models/tripo/raw/smg-textured-v2.glb",
+      "文件摘要": "9f850e322462d1c44b7f7982660c587ca55d316b617b6445722ee8bb911fa24c",
+      "三角面": 111658,
+      "贴图数": 3,
+      "可编辑母版": "assets/models/masters/smg-tripo-v2.blend",
+      "正面预览": "assets/models/masters/smg-tripo-v2-front.png",
+      "背面预览": "assets/models/masters/smg-tripo-v2-back.png"
+    },
+    {
+      "资产": "原图火箭炮",
+      "原图": "assets/concepts/weapons/rocket-launcher-design-v1.png",
+      "输入": "assets/models/tripo/inputs/rocket-launcher/reference.png",
+      "提取范围": [
+        10,
+        100,
+        1535,
+        630
+      ],
+      "说明": "仅从原图提取完整单体主视图，去除标题与重复小视图，不重新生成或改变造型。 已清除单体轮廓之外的边角标题残片。",
+      "状态": "模型与四千像素贴图已生成、下载；母版与双面静态检查通过；尚未新增游戏玩法",
+      "任务标识": "69f2248b-d8d2-4328-829a-a6e7cf5710b6",
+      "积分": 55,
+      "链接": "https://studio.tripo3d.com/workspace/generate/69f2248b-d8d2-4328-829a-a6e7cf5710b6",
+      "建模输入": "assets/models/tripo/inputs/rocket-launcher/reference.png",
+      "生成设置": {
+        "模型": "v3.1",
+        "面数上限": 120000,
+        "贴图": "4K",
+        "PBR": true
+      },
+      "本地原始文件": "assets/models/tripo/raw/rocket-launcher-textured-v2.glb",
+      "文件摘要": "01565fd39eab4daf126a005739e389a0c82e7b41b6e5e569abf063556e01aaac",
+      "三角面": 114680,
+      "贴图数": 3,
+      "可编辑母版": "assets/models/masters/rocket-launcher-tripo-v2.blend",
+      "正面预览": "assets/models/masters/rocket-launcher-tripo-v2-front.png",
+      "背面预览": "assets/models/masters/rocket-launcher-tripo-v2-back.png"
+    }
+  ],
+  "验收边界": "三件完成原图建模、下载与双面检查；手枪、冲锋枪完成经典模式接入，八十八项测试、隔离构建与后台浏览器验收通过；火箭炮尚未新增玩法。",
+  "最新工作区回归": {
+    "用例数": 97,
+    "通过": 97,
+    "失败": 0
+  }
+}

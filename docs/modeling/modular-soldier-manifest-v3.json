@@ -1,0 +1,139 @@
+{
+  "源角色": "assets/models/tripo/raw/base-soldier-walk-v3.glb",
+  "运行文件": "public/models/game/modular-soldier-v3.glb",
+  "骨骼数": 41,
+  "动作数": 1,
+  "装备网格数": 13,
+  "模型": [
+    {
+      "名称": "base-body",
+      "槽位": null,
+      "覆盖区域": null,
+      "三角面": 17676,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-boots",
+      "槽位": null,
+      "覆盖区域": "boots",
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-gloves",
+      "槽位": null,
+      "覆盖区域": "gloves",
+      "三角面": 1377,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-helmet",
+      "槽位": null,
+      "覆盖区域": "helmet",
+      "三角面": 1342,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "base-armor",
+      "槽位": null,
+      "覆盖区域": "armor",
+      "三角面": 3405,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-helmet",
+      "槽位": "helmet",
+      "覆盖区域": null,
+      "三角面": 4199,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-goggles",
+      "槽位": "goggles",
+      "覆盖区域": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-headset",
+      "槽位": "headset",
+      "覆盖区域": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-backpack",
+      "槽位": "backpack",
+      "覆盖区域": null,
+      "三角面": 6499,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-body-armor-i",
+      "槽位": "armor",
+      "覆盖区域": null,
+      "三角面": 6500,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-body-armor-ii",
+      "槽位": "armor",
+      "覆盖区域": null,
+      "三角面": 6500,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-body-armor-iii",
+      "槽位": "armor",
+      "覆盖区域": null,
+      "三角面": 6499,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-boot-left",
+      "槽位": "boots",
+      "覆盖区域": null,
+      "三角面": 3599,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-glove-left",
+      "槽位": "gloves",
+      "覆盖区域": null,
+      "三角面": 3600,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-knee-pad-left",
+      "槽位": "kneepads",
+      "覆盖区域": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-boot-right",
+      "槽位": "boots",
+      "覆盖区域": null,
+      "三角面": 3599,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-glove-right",
+      "槽位": "gloves",
+      "覆盖区域": null,
+      "三角面": 3600,
+      "无权重顶点": 0
+    },
+    {
+      "名称": "equipment-tactical-knee-pad-right",
+      "槽位": "kneepads",
+      "覆盖区域": null,
+      "三角面": 4200,
+      "无权重顶点": 0
+    }
+  ],
+  "总三角面": 89395,
+  "字节数": 17570152,
+  "校验值": "067057df79484de611018d0df12a4a7a36a34f438a74ca33386c2fd5f73844fd",
+  "边界": "已通过真实游戏资产、三种武器与支持动作验收；当前骨架没有独立指骨，最终手指抓握和近景精修未完成。详细证据见 docs/development/modular-soldier-validation.md。"
+}

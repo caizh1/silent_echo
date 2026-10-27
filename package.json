@@ -1,0 +1,24 @@
+{
+  "name": "broken-frontier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsx --test tests/*.test.ts",
+    "test:campaign": "tsx scripts/verify-campaign.ts",
+    "test:story": "tsx scripts/verify-story.ts",
+    "test:story:matrix": "tsx scripts/verify-story-matrix.ts"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "tsx": "^4.20.6",
+    "@types/node": "^24.0.0"
+  }
+}

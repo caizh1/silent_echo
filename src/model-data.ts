@@ -1,0 +1,124 @@
+// 游戏模型导出脚本生成；尺寸单位为米，依次为宽、高、深。
+export const modelData = {
+  "ruined-storefront": {
+    "url": "/models/game/ruined-storefront-v1.glb",
+    "size": [
+      7.99389,
+      8.01154,
+      8.98531
+    ],
+    "triangles": 14000,
+    "bytes": 3987592,
+    "sha256": "131134931944e1a6bdae4f8a33ef11d9d12b748a522f27dd8eddc41c8eeccc23"
+  },
+  "road-barricade": {
+    "url": "/models/game/road-barricade-v1.glb",
+    "size": [
+      3.00231,
+      1.1295,
+      0.91258
+    ],
+    "triangles": 6998,
+    "bytes": 3988520,
+    "sha256": "bf046c58fae528f2980c102ad136beeec7d34e9bc9e8b7d268118f16b438e10e"
+  },
+  "burned-sedan": {
+    "url": "/models/game/burned-sedan-v1.glb",
+    "size": [
+      2.13899,
+      1.53207,
+      4.59862
+    ],
+    "triangles": 14000,
+    "bytes": 4602052,
+    "sha256": "96604426a672bab001ac327a7c3a73bbc0a56ab6e37773b369b484a1d3b6af1b"
+  },
+  "burned-armored-van": {
+    "url": "/models/game/burned-armored-van-v1.glb",
+    "size": [
+      3.03512,
+      2.63471,
+      5.84052
+    ],
+    "triangles": 13999,
+    "bytes": 4042272,
+    "sha256": "9e02ab967f42c7ab8b090ed56a9e70ba1de40d461e6f439b9f19f66c6933b6dc"
+  },
+  "burned-police-car": {
+    "url": "/models/game/burned-police-car-v1.glb",
+    "size": [
+      2.26037,
+      1.80964,
+      4.80219
+    ],
+    "triangles": 14000,
+    "bytes": 4452824,
+    "sha256": "08ddae1f4191d9a3e452c9c551ea97fb70499fed49b436db0201b5fd13f075c3"
+  },
+  "enemy-rifleman": {
+    "url": "/models/game/enemy-rifleman-v1.glb",
+    "size": [
+      1.02569,
+      1.81764,
+      0.48746
+    ],
+    "triangles": 9000,
+    "bytes": 4000804,
+    "sha256": "b355a41c308a4b559ae084aa7d3d5a9cb9dc369f30ed2b225c72288a33f112dc"
+  },
+  "enemy-flanker": {
+    "url": "/models/game/enemy-flanker-v1.glb",
+    "size": [
+      1.00379,
+      1.82625,
+      0.37755
+    ],
+    "triangles": 9000,
+    "bytes": 3977572,
+    "sha256": "189e35b6fa9d972480b5359b1a945ec4956d442fa23a83626674c37491a07c6f"
+  },
+  "alien-pouncer": {
+    "url": "/models/game/alien-pouncer-v1.glb",
+    "size": [
+      2.23894,
+      2.46491,
+      2.59899
+    ],
+    "triangles": 11000,
+    "bytes": 4812040,
+    "sha256": "78d87d4bbeff2ba4937c4a448bf2aa5dc060986be079f61194b09a4064d7e929"
+  },
+  "alien-spitter": {
+    "url": "/models/game/alien-spitter-v1.glb",
+    "size": [
+      1.79706,
+      2.09983,
+      2.04872
+    ],
+    "triangles": 10999,
+    "bytes": 3912608,
+    "sha256": "2f115cb476e67793ad71b12d356114e87fa523900085fef6afbcf7dff9898b29"
+  },
+  "alien-boss": {
+    "url": "/models/game/alien-boss-v1.glb",
+    "size": [
+      4.58452,
+      4.20292,
+      2.42026
+    ],
+    "triangles": 20000,
+    "bytes": 4459980,
+    "sha256": "a4fcdf870d231d7998ef6eb1d4ec5bc7497ee619f88cba7f4744db4b726aaa46"
+  },
+  "enemy-weapon": {
+    "url": "/models/game/enemy-weapon-v1.glb",
+    "size": [
+      0.09816,
+      0.32305,
+      0.89995
+    ],
+    "triangles": 2800,
+    "bytes": 184620,
+    "sha256": "53f12392cd26d9495b2e636a1c2e453ad379a4cda9afc203a0c549dcff3eab11"
+  }
+} as const;

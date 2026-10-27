@@ -1,0 +1,14 @@
+枪械配件与手雷素材来源
+
+Quaternius：科幻模块化枪械包，CC0。
+https://quaternius.com/packs/scifimodularguns.html
+
+Kenney：Blaster Kit 2.1，CC0。
+https://kenney.nl/assets/blaster-kit
+
+许可原文：
+https://creativecommons.org/publicdomain/zero/1.0/
+
+本项目对模型进行了配色、比例、语义拆分与游戏挂点适配；突击步枪主体沿用本项目已有模型。完整原始文件、来源与校验记录保存在项目资产目录。
+
+二〇二六年十月二十六日更新：当前手枪、冲锋枪主体及其可提取配件已改用本项目原图通过 Tripo 生成的模型，火箭炮原图模型已保存。上述 CC0 来源是历史主体与仍复用的免费配件、手雷素材记录，不代表 Tripo 生成模型的许可声明。当前来源和加工范围以项目来源清单为准。
